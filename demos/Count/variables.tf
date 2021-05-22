@@ -13,10 +13,10 @@ variable "aws_amis" {
 }
 
 variable "KEY_NAME" {
-  default = "fiap-lab"
+  default = "lab-ampli"
 }
 variable "PATH_TO_KEY" {
-  default = "/home/ubuntu/.ssh/fiap-lab.pem"
+  default = "/home/ubuntu/.ssh/lab-ampli.pem"
 }
 variable "INSTANCE_USERNAME" {
   default = "ubuntu"
